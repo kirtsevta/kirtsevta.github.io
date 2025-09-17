@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KIRTAN - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="KIRTAN" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="KIRTAN">KIRTAN</h1>
+
+          <p class="title">AI/ML Enthusiast & Web Developer</p>
+
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:kirtankumar61@gmail.com" class="contact-link">kirtankumar61@gmail.com</a>
+
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+918837642057" class="contact-link">+918837642057</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2006-08-12">Aug 12, 2006</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Abohar, Punjab, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+  <a href="https://www.instagram.com/kirxt_sevta/?next=%2F" class="social-link" target="_blank">
+    <ion-icon name="logo-instagram"></ion-icon>
+  </a>
+</li>
+
+          <li class="social-item">
+  <a href="#" class="social-link" target="_blank">
+    <ion-icon name="logo-facebook"></ion-icon>
+  </a>
+</li>
+
+        <li class="social-item">
+  <a href="https://x.com/kirxt_sevta" class="social-link" target="_blank">
+    <ion-icon name="logo-twitter"></ion-icon>
+  </a>
+</li>
+         <li class="social-item">
+  <a href="https://github.com/kirtsevta" class="social-link" target="_blank">
+    <ion-icon name="logo-Github"></ion-icon>
+  </a>
+</li>
+          <li class="social-item">
+  <a href="https://www.linkedin.com/in/kirtan-sevta-b64406322/" class="social-link" target="_blank">
+    <ion-icon name="logo-linkedin"></ion-icon>
+  </a>
+</li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certificates</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+  <section class="about-text">
+  <p>
+    I'm an aspiring Software Engineer currently learning and exploring the world of Web Development, Artificial Intelligence, and Machine Learning. I enjoy solving real-world problems through code and building creative digital solutions.
+  </p>
+
+  <p>
+    I'm gaining strong knowledge in Data Structures and Algorithms (DSA) to improve my problem-solving skills. Along with that, I'm working on projects related to websites and intelligent systems using modern technologies.
+  </p>
+
+  <p>
+    My goal is to become a skilled developer who can build smart and useful applications that help people. I'm constantly learning and practicing to turn ideas into working products while growing step by step in this tech journey.
+  </p>
+</section>
+
+
+
+
+        <!--
+          - service
+        -->
+
+     <section class="service">
+
+  <h3 class="h3 service-title">What I'm doing</h3>
+
+  <ul class="service-list">
+
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Web Development</h4>
+        <p class="service-item-text">
+          Building responsive and user-friendly websites using HTML, CSS, JavaScript, and frameworks.
+        </p>
+      </div>
+    </li>
+
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src="./assets/images/icon-design.svg" alt="ML icon" width="40">
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Machine Learning Projects</h4>
+        <p class="service-item-text">
+          Working on real-world ML projects like Sentiment Analysis and Advance Calculator , Data Visulazier , Currency Converter , Face Detection using Python and Machine Learning.
+        </p>
+      </div>
+    </li>
+
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src="./assets/images/icon-app.svg" alt="DSA icon" width="40">
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Data Structures & Algorithms</h4>
+        <p class="service-item-text">
+          Practicing DSA using C++ to build strong problem-solving skills for tech interviews.
+        </p>
+      </div>
+    </li>
+
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src="./assets/images/icon-photo.svg" alt="learning icon" width="40">
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Continuous Learning</h4>
+        <p class="service-item-text">
+          Exploring new technologies, contributing to projects, and building a strong development profile.
+        </p>
+      </div>
+    </li>
+
+  </ul>
+
+</section>
+
+
+
+
+        <!--
+          - testimonials
+        -->
+<section class="testimonials">
+
+  <h3 class="h3 testimonials-title">Testimonials</h3>
+
+  <ul class="testimonials-list has-scrollbar">
+
+    <li class="testimonials-item">
+      <div class="content-card" data-testimonials-item>
+        <figure class="testimonials-avatar-box">
+          <img src="./assets/images/avatar-1.png" alt="Dr. Jyoti Bansal" width="60" data-testimonials-avatar>
+        </figure>
+        <h4 class="h4 testimonials-item-title" data-testimonials-title>Dr. Jyoti Bansal</h4>
+        <p class="testimonials-item-date">5 August, 2025</p>
+        <div class="testimonials-text" data-testimonials-text>
+          <p>
+            Kirtan is a dedicated and hardworking student. His enthusiasm for AI, Machine Learning, and development is commendable. He has great potential to solve real-world problems through innovative thinking.
+          </p>
+        </div>
+      </div>
+    </li>
+
+    <li class="testimonials-item">
+      <div class="content-card" data-testimonials-item>
+        <figure class="testimonials-avatar-box">
+          <img src="./assets/images/avatar-2.png" alt="Dr. Ramanpreet Kaur" width="60" data-testimonials-avatar>
+        </figure>
+        <h4 class="h4 testimonials-item-title" data-testimonials-title>Dr. Ramanpreet Kaur</h4>
+        <p class="testimonials-item-date">5 August, 2025</p>
+        <div class="testimonials-text" data-testimonials-text>
+          <p>
+            I've worked with Kirtan on a few projects and I was truly impressed by his problem-solving skills and dedication. Whether it’s Web Dev or ML, he learns quickly and delivers quality results.
+          </p>
+        </div>
+      </div>
+    </li>
+
+    <li class="testimonials-item">
+      <div class="content-card" data-testimonials-item>
+        <figure class="testimonials-avatar-box">
+          <img src="./assets/images/avatar-3.png" alt="Arsh Karwal" width="60" data-testimonials-avatar>
+        </figure>
+        <h4 class="h4 testimonials-item-title" data-testimonials-title>Arsh Karwal</h4>
+        <p class="testimonials-item-date">5 August, 2025</p>
+        <div class="testimonials-text" data-testimonials-text>
+          <p>
+            Kirtan is always curious to learn new technologies. His interest in AI/ML and consistency in coding practice make him stand out among peers. He's definitely someone to watch for in tech.
+          </p>
+        </div>
+      </div>
+    </li>
+
+    <li class="testimonials-item">
+      <div class="content-card" data-testimonials-item>
+        <figure class="testimonials-avatar-box">
+          <img src="./assets/images/aditya2.jpg" alt="Aditya Vishwakarma" width="60" data-testimonials-avatar>
+        </figure>
+        <h4 class="h4 testimonials-item-title" data-testimonials-title>Aditya Vishwakarma</h4>
+        <p class="testimonials-item-date">5 August, 2025</p>
+        <div class="testimonials-text" data-testimonials-text>
+          <p>
+            Kirtan’s ability to collaborate and solve coding challenges is outstanding. He is also a great team player and has helped our project team succeed multiple times.
+          </p>
+        </div>
+      </div>
+    </li>
+
+  </ul>
+
+</section>
+
+
+
+
+        <!--
+          - testimonials modal
+        -->
+
+       <div class="modal-container" data-modal-container>
+
+  <div class="overlay" data-overlay></div>
+
+  <section class="testimonials-modal">
+
+    <button class="modal-close-btn" data-modal-close-btn>
+      <ion-icon name="close-outline"></ion-icon>
+    </button>
+
+    <div class="modal-img-wrapper">
+      <figure class="modal-avatar-box">
+        <img src="./assets/images/avatar-1.png" alt="Dr. Jyoti Bansal" width="80" data-modal-img>
+      </figure>
+      <img src="./assets/images/icon-quote.svg" alt="quote icon">
+    </div>
+
+    <div class="modal-content">
+      <h4 class="h3 modal-title" data-modal-title>Dr. Jyoti Bansal</h4>
+      <time datetime="2025-08-05">5 August, 2025</time>
+      <div data-modal-text>
+        <p>
+          Kirtan is an exceptionally driven student with a passion for Web Development and AI/ML. His ability to grasp complex concepts quickly and implement them in real-world projects like Sentiment Analysis and Data Visualization is truly impressive. His dedication to continuous learning and coding makes him stand out as a future-ready software engineer.
+        </p>
+      </div>
+    </div>
+
+  </section>
+
+</div>
+
+
+
+        <!--
+          - clients
+        -->
+
+        
+
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Maharaja Ranjit Singh Punjab Technical University ,Bathinda </h4>
+
+              <span>2024 — 2027</span>
+
+              <p class="timeline-text">
+               I am currently pursuing my B.C.A AI-ML from Baba farid Group of Institution, Bathinda. My focus is on Web Development, AI, and Machine Learning.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Government Senior Secondary Smart School , Maujgarh ,Abohar , Fazilka , Punjab </h4>
+
+              <span>2023 — 2024</span>
+
+              <p class="timeline-text">
+                I have completed  my secondary education with 83%              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Government Girls Smart High School , jandwala hanwanta , Abohar , Fazilka , Punjab</h4>
+
+              <span>2021 — 2022</span>
+
+              <p class="timeline-text">
+                I have completed  my high education with 86%   
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Training</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Excellence Technology</h4>
+
+              <span> July 2025 — Aug 2025</span>
+
+              <p class="timeline-text">
+                I have completed my training in AI, and Machine Learning at Excellence Technology, Mohali. I worked on projects like Sentiment Analysis and Data Visualization , Currency converter , Advance Calculator, Face Detection.
+                <br>Tools: Python, NumPy, Pandas, Scikit-learn, Jupyter Notebook, Streamlit, flask , anaconda , vs code ,google colab.
+              </p>
+
+            </li>
+
+            
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">C</h5>
+                <data value="70">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">C++</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress</h5>
+                <data value="50">92%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 92%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="70">95%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Power BI</h5>
+                <data value="70">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Analysis</h5>
+                <data value="70">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Science</h5>
+                <data value="70">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">AI-ML</h5>
+                <data value="90">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+                <data value="70">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">sql</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <!-- PROJECTS section with avatar-style online images -->
+<article class="portfolio" data-page="projects">
+  <header>
+    <h2 class="h2 article-title">Projects</h2>
+  </header>
+
+  <section class="projects">
+
+    <ul class="filter-list">
+      <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+      <li class="filter-item"><button data-filter-btn>ML</button></li>
+      <li class="filter-item"><button data-filter-btn>Applications</button></li>
+    </ul>
+
+    <div class="filter-select-box">
+      <button class="filter-select" data-select>
+        <div class="select-value" data-selecct-value>Select category</div>
+        <div class="select-icon">
+          <ion-icon name="chevron-down"></ion-icon>
+        </div>
+      </button>
+      <ul class="select-list">
+        <li class="select-item"><button data-select-item>All</button></li>
+        <li class="select-item"><button data-select-item>ML</button></li>
+        <li class="select-item"><button data-select-item>Applications</button></li>
+      </ul>
+    </div>
+
+    <ul class="project-list">
+
+      <!-- Sentiment Analysis -->
+      <li class="project-item active" data-filter-item data-category="applications">
+  <a href="#">
+    <figure class="project-img">
+      <div class="project-item-icon-box">
+        <ion-icon name="eye-outline"></ion-icon>
+      </div>
+      <img src="https://api.dicebear.com/7.x/bottts/svg?seed=sentiment" alt="Sentiment Analysis Avatar" loading="lazy">
+    </figure>
+    <h3 class="project-title"><a href="https://github.com/kirtsevta/sentiment-analysis"</a>Sentiment Analysis</h3>
+    <p class="project-category">Machine Learning</p>
+  </a>
+</li>
+
+<!-- Data Visualizer -->
+<li class="project-item active" data-filter-item data-category="applications">
+  <a href="#">
+    <figure class="project-img">
+      <div class="project-item-icon-box">
+        <ion-icon name="eye-outline"></ion-icon>
+      </div>
+      <img src="https://api.dicebear.com/7.x/bottts/svg?seed=chart" alt="Data Visualizer Avatar" loading="lazy">
+    </figure>
+    <h3 class="project-title"><a href="https://github.com/kirtsevta/Data-Visualizer"</a>Data Visualizer</h3>
+    <p class="project-category">Streamlit App</p>
+  </a>
+</li>
+
+<!-- Currency Converter -->
+<li class="project-item active" data-filter-item data-category="applications">
+  <a href="#">
+    <figure class="project-img">
+      <div class="project-item-icon-box">
+        <ion-icon name="eye-outline"></ion-icon>
+      </div>
+      <img src="https://api.dicebear.com/7.x/bottts/svg?seed=currency" alt="Currency Converter Avatar" loading="lazy">
+    </figure>
+    <h3 class="project-title"><a href="https://github.com/kirtsevta/currency-converter"</a>Currency Converter</h3>
+    <p class="project-category">Python App</p>
+  </a>
+</li>
+
+<!-- Advanced Calculator -->
+<li class="project-item active" data-filter-item data-category="applications">
+  <a href="#">
+    <figure class="project-img">
+      <div class="project-item-icon-box">
+        <ion-icon name="eye-outline"></ion-icon>
+      </div>
+      <img src="https://api.dicebear.com/7.x/bottts/svg?seed=calculator" alt="Advanced Calculator Avatar" loading="lazy">
+     
+    </figure>
+    <h3 class="project-title"><a href="https://github.com/kirtsevta/advance-calculator">Advanced Calculator</a></h3>
+    <p class="project-category">Tkinter GUI</p>
+  </a>
+</li>
+
+<!-- Face Detection -->
+<li class="project-item active" data-filter-item data-category="applications">
+  <a href="#">
+    <figure class="project-img">
+      <div class="project-item-icon-box">
+        <ion-icon name="eye-outline"></ion-icon>
+      </div>
+      <img src="https://api.dicebear.com/7.x/bottts/svg?seed=face" alt="Face Detection Avatar" loading="lazy">
+    </figure>
+    <h3 class="project-title"><a href="https://github.com/kirtsevta/Face_detection"</a>Face Detection</h3>
+    <p class="project-category">Computer Vision</p>
+  </a>
+</li>
+
+
+    </ul>
+  </section>
+</article>
+
+<!-- CERTIFICATES section with avatar-style icons -->
+<article class="certificates" data-page="certificates">
+  <header>
+    <h2 class="h2 article-title">Certificates</h2>
+  </header>
+  <section class="projects">
+    <ul class="project-list">
+      <!-- SEO Workshop -->
+      <li class="project-item active">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="https://api.dicebear.com/7.x/bottts/svg?seed=seo" alt="SEO Workshop Avatar" loading="lazy">
+          </figure>
+          <h3 class="project-title"><a href="https://drive.google.com/file/d/1s3tyQOgHFC4wSit1ycssQDWB37Co-bcR/view?usp=sharing"</a>SEO Workshop</h3>
+          <p class="project-category">Digital Marketing</p>
+        </a>
+      </li>
+      <!-- Python + ML Certification -->
+      <li class="project-item active">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="https://api.dicebear.com/7.x/bottts/svg?seed=pythonml" alt="Python + ML Avatar" loading="lazy">
+          </figure>
+          <h3 class="project-title"><a href="https://drive.google.com/file/d/18Kvg50PbQYnwp3KfMzmX-c87Rcf688m4/view?usp=sharing"</a>Python + Simplilearn</h3>
+          <p class="project-category">AI & ML</p>
+        </a>
+      </li>
+      <!--Research Paper -->
+      <li class="project-item active">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20180%20180%22%20fill%3D%22none%22%20shape-rendering%3D%22auto%22%3E%3Cmetadata%20xmlns%3Ardf%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%22%20xmlns%3Axsi%3D%22http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema-instance%22%20xmlns%3Adc%3D%22http%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%22%20xmlns%3Adcterms%3D%22http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%22%3E%3Crdf%3ARDF%3E%3Crdf%3ADescription%3E%3Cdc%3Atitle%3EBottts%3C%2Fdc%3Atitle%3E%3Cdc%3Acreator%3EPablo%20Stanley%3C%2Fdc%3Acreator%3E%3Cdc%3Asource%20xsi%3Atype%3D%22dcterms%3AURI%22%3Ehttps%3A%2F%2Fbottts.com%2F%3C%2Fdc%3Asource%3E%3Cdcterms%3Alicense%20xsi%3Atype%3D%22dcterms%3AURI%22%3Ehttps%3A%2F%2Fbottts.com%2F%3C%2Fdcterms%3Alicense%3E%3Cdc%3Arights%3ERemix%20of%20%E2%80%9EBottts%E2%80%9D%20(https%3A%2F%2Fbottts.com%2F)%20by%20%E2%80%9EPablo%20Stanley%E2%80%9D%2C%20licensed%20under%20%E2%80%9EFree%20for%20personal%20and%20commercial%20use%E2%80%9D%20(https%3A%2F%2Fbottts.com%2F)%3C%2Fdc%3Arights%3E%3C%2Frdf%3ADescription%3E%3C%2Frdf%3ARDF%3E%3C%2Fmetadata%3E%3Cmask%20id%3D%22viewboxMask%22%3E%3Crect%20width%3D%22180%22%20height%3D%22180%22%20rx%3D%220%22%20ry%3D%220%22%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23fff%22%20%2F%3E%3C%2Fmask%3E%3Cg%20mask%3D%22url(%23viewboxMask)%22%3E%3Cg%20transform%3D%22translate(0%2066)%22%3E%3Cmask%20id%3D%22sidesRound-a%22%20style%3D%22mask-type%3Aluminance%22%20maskUnits%3D%22userSpaceOnUse%22%20x%3D%2212%22%20y%3D%2216%22%20width%3D%22156%22%20height%3D%2245%22%3E%3Cg%20fill%3D%22%23fff%22%3E%3Cellipse%20cx%3D%22150%22%20cy%3D%2238.5%22%20rx%3D%2218%22%20ry%3D%2222.5%22%2F%3E%3Cellipse%20cx%3D%2218%22%20cy%3D%2222.5%22%20rx%3D%2218%22%20ry%3D%2222.5%22%20transform%3D%22matrix(-1%200%200%201%2048%2016)%22%2F%3E%3C%2Fg%3E%3C%2Fmask%3E%3Cg%20mask%3D%22url(%23sidesRound-a)%22%3E%3Cpath%20d%3D%22M0%200h180v76H0V0Z%22%20fill%3D%22%23fdd835%22%2F%3E%3Cpath%20d%3D%22M0%200h180v76H0V0Z%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.3%22%2F%3E%3Cpath%20fill%3D%22%23000%22%20fill-opacity%3D%22.2%22%20d%3D%22M20%200h140v76H20z%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate(41)%22%3E%3Cmask%20id%3D%22topPyramid-a%22%20style%3D%22mask-type%3Aluminance%22%20maskUnits%3D%22userSpaceOnUse%22%20x%3D%2218%22%20y%3D%228%22%20width%3D%2264%22%20height%3D%2244%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22m50%208%2032%2044H18L50%208Z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fmask%3E%3Cg%20mask%3D%22url(%23topPyramid-a)%22%3E%3Cpath%20d%3D%22M0%200h100v52H0V0Z%22%20fill%3D%22%23fdd835%22%2F%3E%3Cpath%20d%3D%22M0%200h100v52H0V0Z%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.3%22%2F%3E%3Cpath%20fill%3D%22%23fff%22%20fill-opacity%3D%22.8%22%20d%3D%22M50%204h30v48H50z%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate(25%2044)%22%3E%3Cmask%20id%3D%22faceRound02-a%22%20style%3D%22mask-type%3Aluminance%22%20maskUnits%3D%22userSpaceOnUse%22%20x%3D%220%22%20y%3D%220%22%20width%3D%22130%22%20height%3D%22120%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M0%2031v-1c.18-.48.4-1.5%201-3%20.83-3.06%202.78-6.56%206-10C16.7%206.6%2035.17%200%2065%200s48.3%206.6%2058%2017c3.22%203.44%205.17%206.94%206%2010%20.6%201.5.82%202.52%201%203v40c0-.1-.03.5%200%201a53.93%2053.93%200%200%201-1%206c-1.19%206-3.4%2011.91-7%2017-9.72%2016.34-27.74%2026-57%2026s-47.28-9.66-57-26C4.4%2088.91%202.2%2083%201%2077a53.95%2053.95%200%200%201-1-6c.03-.45%200-1.32%200-1V31Z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fmask%3E%3Cg%20mask%3D%22url(%23faceRound02-a)%22%3E%3Cpath%20d%3D%22M-4-2h138v124H-4V-2Z%22%20fill%3D%22%23fdd835%22%2F%3E%3Cg%20transform%3D%22translate(-1%20-1)%22%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate(52%20124)%22%3E%3Crect%20x%3D%224%22%20y%3D%224%22%20width%3D%2268%22%20height%3D%2224%22%20rx%3D%225%22%20fill%3D%22%23000%22%20fill-opacity%3D%22.2%22%2F%3E%3Crect%20x%3D%228%22%20y%3D%228%22%20width%3D%2260%22%20height%3D%2216%22%20rx%3D%222%22%20fill%3D%22%23000%22%20fill-opacity%3D%22.8%22%2F%3E%3Cpath%20d%3D%22M9%2017h11l2-4%203%207%204-8%202%209%203-11%203%2010%203-3h15l3-4%202%207%203-3h4%22%20stroke%3D%22%234EFAC9%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate(38%2076)%22%3E%3Cpath%20d%3D%22M28%2044a20%2020%200%200%200%2019.9-18h41.52a5%205%200%201%200%200-4H47.9A20%2020%200%201%200%2028%2044Z%22%20fill%3D%22%23000%22%20fill-opacity%3D%22.2%22%2F%3E%3Ccircle%20cx%3D%2294%22%20cy%3D%2224%22%20r%3D%222%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%2228%22%20cy%3D%2224%22%20r%3D%2216%22%20fill%3D%22%23000%22%20fill-opacity%3D%22.6%22%2F%3E%3Ccircle%20cx%3D%2234%22%20cy%3D%2216%22%20r%3D%223%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Robotics Avatar" loading="lazy">
+          </figure>
+          <h3 class="project-title"><a href="https://drive.google.com/file/d/1DXOl1hnVCB78Fx9iKlycERJFRgFCgydB/view?usp=sharing"</a>Research Paper</h3>
+          <p class="project-category">The Future of Connectivity: Enhancing Efficiency through IoT </p>
+        </a>
+      </li>
+      <!-- 24th ISTE  -->
+       <li class="project-item active">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20180%20180%22%20fill%3D%22none%22%20shape-rendering%3D%22auto%22%3E%3Cmetadata%20xmlns%3Ardf%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%22%20xmlns%3Axsi%3D%22http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema-instance%22%20xmlns%3Adc%3D%22http%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%22%20xmlns%3Adcterms%3D%22http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%22%3E%3Crdf%3ARDF%3E%3Crdf%3ADescription%3E%3Cdc%3Atitle%3EBottts%3C%2Fdc%3Atitle%3E%3Cdc%3Acreator%3EPablo%20Stanley%3C%2Fdc%3Acreator%3E%3Cdc%3Asource%20xsi%3Atype%3D%22dcterms%3AURI%22%3Ehttps%3A%2F%2Fbottts.com%2F%3C%2Fdc%3Asource%3E%3Cdcterms%3Alicense%20xsi%3Atype%3D%22dcterms%3AURI%22%3Ehttps%3A%2F%2Fbottts.com%2F%3C%2Fdcterms%3Alicense%3E%3Cdc%3Arights%3ERemix%20of%20%E2%80%9EBottts%E2%80%9D%20(https%3A%2F%2Fbottts.com%2F)%20by%20%E2%80%9EPablo%20Stanley%E2%80%9D%2C%20licensed%20under%20%E2%80%9EFree%20for%20personal%20and%20commercial%20use%E2%80%9D%20(https%3A%2F%2Fbottts.com%2F)%3C%2Fdc%3Arights%3E%3C%2Frdf%3ADescription%3E%3C%2Frdf%3ARDF%3E%3C%2Fmetadata%3E%3Cmask%20id%3D%22viewboxMask%22%3E%3Crect%20width%3D%22180%22%20height%3D%22180%22%20rx%3D%220%22%20ry%3D%220%22%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23fff%22%20%2F%3E%3C%2Fmask%3E%3Cg%20mask%3D%22url(%23viewboxMask)%22%3E%3Cg%20transform%3D%22translate(0%2066)%22%3E%3Cmask%20id%3D%22sidesAntenna02-a%22%20style%3D%22mask-type%3Aluminance%22%20maskUnits%3D%22userSpaceOnUse%22%20x%3D%2210%22%20y%3D%229%22%20width%3D%22160%22%20height%3D%2251%22%3E%3Cg%20fill%3D%22%23fff%22%3E%3Crect%20x%3D%2210%22%20y%3D%2228%22%20width%3D%2236%22%20height%3D%2232%22%20rx%3D%224%22%2F%3E%3Cpath%20d%3D%22M160%209h2v20h-2z%22%2F%3E%3Crect%20x%3D%22134%22%20y%3D%2228%22%20width%3D%2236%22%20height%3D%2232%22%20rx%3D%224%22%2F%3E%3C%2Fg%3E%3C%2Fmask%3E%3Cg%20mask%3D%22url(%23sidesAntenna02-a)%22%3E%3Cpath%20d%3D%22M0%200h180v76H0V0Z%22%20fill%3D%22%2300897b%22%2F%3E%3Cpath%20d%3D%22M0%200h180v76H0V0Z%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.3%22%2F%3E%3Cpath%20fill%3D%22%23000%22%20fill-opacity%3D%22.1%22%20d%3D%22M0%2038h180v38H0z%22%2F%3E%3C%2Fg%3E%3Cpath%20fill%3D%22%23fff%22%20fill-opacity%3D%22.4%22%20d%3D%22M160%208h2v20h-2z%22%2F%3E%3Ccircle%20cx%3D%22161%22%20cy%3D%225%22%20r%3D%224%22%20fill%3D%22%23E1E6E8%22%2F%3E%3Ccircle%20cx%3D%22162%22%20cy%3D%224%22%20r%3D%222%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate(41)%22%3E%3Cmask%20id%3D%22topPyramid-a%22%20style%3D%22mask-type%3Aluminance%22%20maskUnits%3D%22userSpaceOnUse%22%20x%3D%2218%22%20y%3D%228%22%20width%3D%2264%22%20height%3D%2244%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22m50%208%2032%2044H18L50%208Z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fmask%3E%3Cg%20mask%3D%22url(%23topPyramid-a)%22%3E%3Cpath%20d%3D%22M0%200h100v52H0V0Z%22%20fill%3D%22%2300897b%22%2F%3E%3Cpath%20d%3D%22M0%200h100v52H0V0Z%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.3%22%2F%3E%3Cpath%20fill%3D%22%23fff%22%20fill-opacity%3D%22.8%22%20d%3D%22M50%204h30v48H50z%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate(25%2044)%22%3E%3Cmask%20id%3D%22faceSquare03-a%22%20style%3D%22mask-type%3Aluminance%22%20maskUnits%3D%22userSpaceOnUse%22%20x%3D%220%22%20y%3D%220%22%20width%3D%22130%22%20height%3D%22120%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M0%2018A18%2018%200%200%201%2018%200h94a18%2018%200%200%201%2018%2018v27.15a40%2040%200%200%201-2.28%2013.31L110.24%20108a18%2018%200%200%201-16.98%2012H36.74a18%2018%200%200%201-16.98-12L2.28%2058.45A40%2040%200%200%201%200%2045.15V18Z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fmask%3E%3Cg%20mask%3D%22url(%23faceSquare03-a)%22%3E%3Cpath%20d%3D%22M-2-2h134v124H-2V-2Z%22%20fill%3D%22%2300897b%22%2F%3E%3Cg%20transform%3D%22translate(-1%20-1)%22%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate(52%20124)%22%3E%3Cg%20fill%3D%22%23000%22%20fill-opacity%3D%22.6%22%3E%3Crect%20x%3D%2228%22%20y%3D%2210%22%20width%3D%226%22%20height%3D%2214%22%20rx%3D%222%22%2F%3E%3Crect%20x%3D%2214%22%20y%3D%2210%22%20width%3D%226%22%20height%3D%2214%22%20rx%3D%222%22%2F%3E%3Crect%20x%3D%2242%22%20y%3D%2210%22%20width%3D%226%22%20height%3D%2214%22%20rx%3D%222%22%2F%3E%3Crect%20x%3D%2256%22%20y%3D%2210%22%20width%3D%226%22%20height%3D%2214%22%20rx%3D%222%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate(38%2076)%22%3E%3Crect%20y%3D%224%22%20width%3D%22104%22%20height%3D%2242%22%20rx%3D%224%22%20fill%3D%22%23000%22%20fill-opacity%3D%22.8%22%2F%3E%3Crect%20x%3D%2228%22%20y%3D%2225%22%20width%3D%2210%22%20height%3D%2211%22%20rx%3D%222%22%20fill%3D%22%238BDDFF%22%2F%3E%3Crect%20x%3D%2266%22%20y%3D%2225%22%20width%3D%2210%22%20height%3D%2211%22%20rx%3D%222%22%20fill%3D%22%238BDDFF%22%2F%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M21%204h8L12%2046H4L21%204Z%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.4%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Robotics Avatar" loading="lazy">
+          </figure>
+          <h3 class="project-title"><a href="https://drive.google.com/file/d/1ym41L7k73loXG-jL2Ppu547AZWAC0qOF/view?usp=sharing"</a>24th ISTE Annual National Students Convention</h3>
+          <p class="project-category"> 24th ISTE Compition</p>
+        </a>
+      </li>
+
+      <li class="project-item active">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20180%20180%22%20fill%3D%22none%22%20shape-rendering%3D%22auto%22%3E%3Cmetadata%20xmlns%3Ardf%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%22%20xmlns%3Axsi%3D%22http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema-instance%22%20xmlns%3Adc%3D%22http%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%22%20xmlns%3Adcterms%3D%22http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%22%3E%3Crdf%3ARDF%3E%3Crdf%3ADescription%3E%3Cdc%3Atitle%3EBottts%3C%2Fdc%3Atitle%3E%3Cdc%3Acreator%3EPablo%20Stanley%3C%2Fdc%3Acreator%3E%3Cdc%3Asource%20xsi%3Atype%3D%22dcterms%3AURI%22%3Ehttps%3A%2F%2Fbottts.com%2F%3C%2Fdc%3Asource%3E%3Cdcterms%3Alicense%20xsi%3Atype%3D%22dcterms%3AURI%22%3Ehttps%3A%2F%2Fbottts.com%2F%3C%2Fdcterms%3Alicense%3E%3Cdc%3Arights%3ERemix%20of%20%E2%80%9EBottts%E2%80%9D%20(https%3A%2F%2Fbottts.com%2F)%20by%20%E2%80%9EPablo%20Stanley%E2%80%9D%2C%20licensed%20under%20%E2%80%9EFree%20for%20personal%20and%20commercial%20use%E2%80%9D%20(https%3A%2F%2Fbottts.com%2F)%3C%2Fdc%3Arights%3E%3C%2Frdf%3ADescription%3E%3C%2Frdf%3ARDF%3E%3C%2Fmetadata%3E%3Cmask%20id%3D%22viewboxMask%22%3E%3Crect%20width%3D%22180%22%20height%3D%22180%22%20rx%3D%220%22%20ry%3D%220%22%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23fff%22%20%2F%3E%3C%2Fmask%3E%3Cg%20mask%3D%22url(%23viewboxMask)%22%3E%3Cg%20transform%3D%22translate(0%2066)%22%3E%3Cmask%20id%3D%22sidesAntenna01-a%22%20style%3D%22mask-type%3Aluminance%22%20maskUnits%3D%22userSpaceOnUse%22%20x%3D%226%22%20y%3D%2211%22%20width%3D%22156%22%20height%3D%2251%22%3E%3Cg%20fill%3D%22%23fff%22%3E%3Crect%20x%3D%226%22%20y%3D%2231%22%20width%3D%2236%22%20height%3D%2214%22%20rx%3D%224%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2214%22%20width%3D%2236%22%20height%3D%2248%22%20rx%3D%224%22%2F%3E%3Crect%20x%3D%22126%22%20y%3D%2228%22%20width%3D%2236%22%20height%3D%2224%22%20rx%3D%224%22%2F%3E%3Cpath%20d%3D%22M11%2011h2v20h-2z%22%2F%3E%3C%2Fg%3E%3C%2Fmask%3E%3Cg%20mask%3D%22url(%23sidesAntenna01-a)%22%3E%3Cpath%20d%3D%22M0%200h180v76H0V0Z%22%20fill%3D%22%2343a047%22%2F%3E%3Cpath%20fill%3D%22%23fff%22%20fill-opacity%3D%22.3%22%20d%3D%22M0%200h180v76H0z%22%2F%3E%3Cpath%20fill%3D%22%23000%22%20fill-opacity%3D%22.1%22%20d%3D%22M0%2038h180v38H0z%22%2F%3E%3C%2Fg%3E%3Cpath%20fill%3D%22%23fff%22%20fill-opacity%3D%22.4%22%20d%3D%22M11%2011h2v20h-2z%22%2F%3E%3Ccircle%20cx%3D%2212%22%20cy%3D%228%22%20r%3D%224%22%20fill%3D%22%23FFEA8F%22%2F%3E%3Ccircle%20cx%3D%2213%22%20cy%3D%227%22%20r%3D%222%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate(41)%22%3E%3Cmask%20id%3D%22topLights-a%22%20style%3D%22mask-type%3Aluminance%22%20maskUnits%3D%22userSpaceOnUse%22%20x%3D%2210%22%20y%3D%2222%22%20width%3D%2280%22%20height%3D%2230%22%3E%3Cg%20fill%3D%22%23fff%22%3E%3Cpath%20d%3D%22M10%2042c0-1.1.9-2%202-2h76a2%202%200%200%201%202%202v10H10V42Z%22%2F%3E%3Cpath%20d%3D%22M18%2027a5%205%200%200%201%205-5h6a5%205%200%200%201%205%205v25H18V27ZM42%2027a5%205%200%200%201%205-5h6a5%205%200%200%201%205%205v25H42V27ZM66%2027a5%205%200%200%201%205-5h6a5%205%200%200%201%205%205v25H66V27Z%22%2F%3E%3C%2Fg%3E%3C%2Fmask%3E%3Cg%20mask%3D%22url(%23topLights-a)%22%3E%3Cpath%20d%3D%22M0%200h100v52H0V0Z%22%20fill%3D%22%2343a047%22%2F%3E%3Cpath%20d%3D%22M0%200h100v52H0V0Z%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.3%22%2F%3E%3Cpath%20fill%3D%22%23fff%22%20fill-opacity%3D%22.6%22%20d%3D%22M0%200h100v40H0z%22%2F%3E%3Crect%20x%3D%2224%22%20y%3D%2228%22%20width%3D%224%22%20height%3D%228%22%20rx%3D%222%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.6%22%2F%3E%3Crect%20x%3D%2248%22%20y%3D%2228%22%20width%3D%224%22%20height%3D%228%22%20rx%3D%222%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.6%22%2F%3E%3Crect%20x%3D%2272%22%20y%3D%2228%22%20width%3D%224%22%20height%3D%228%22%20rx%3D%222%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.6%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate(25%2044)%22%3E%3Cmask%20id%3D%22faceSquare03-a%22%20style%3D%22mask-type%3Aluminance%22%20maskUnits%3D%22userSpaceOnUse%22%20x%3D%220%22%20y%3D%220%22%20width%3D%22130%22%20height%3D%22120%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M0%2018A18%2018%200%200%201%2018%200h94a18%2018%200%200%201%2018%2018v27.15a40%2040%200%200%201-2.28%2013.31L110.24%20108a18%2018%200%200%201-16.98%2012H36.74a18%2018%200%200%201-16.98-12L2.28%2058.45A40%2040%200%200%201%200%2045.15V18Z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fmask%3E%3Cg%20mask%3D%22url(%23faceSquare03-a)%22%3E%3Cpath%20d%3D%22M-2-2h134v124H-2V-2Z%22%20fill%3D%22%2343a047%22%2F%3E%3Cg%20transform%3D%22translate(-1%20-1)%22%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate(52%20124)%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M18%2010.22C18%2021.78%2024.47%2028%2038%2028c13.52%200%2020-6.34%2020-17.78C58%209.5%2057.17%208%2055%208H21c-2.05%200-3%201.38-3%202.22Z%22%20fill%3D%22%23000%22%20fill-opacity%3D%22.8%22%2F%3E%3Cmask%20id%3D%22mouthSmile02-a%22%20style%3D%22mask-type%3Aluminance%22%20maskUnits%3D%22userSpaceOnUse%22%20x%3D%2218%22%20y%3D%228%22%20width%3D%2240%22%20height%3D%2220%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M18%2010.22C18%2021.78%2024.47%2028%2038%2028c13.52%200%2020-6.34%2020-17.78C58%209.5%2057.17%208%2055%208H21c-2.05%200-3%201.38-3%202.22Z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fmask%3E%3Cg%20mask%3D%22url(%23mouthSmile02-a)%22%3E%3Crect%20x%3D%2230%22%20y%3D%222%22%20width%3D%2216%22%20height%3D%2214%22%20rx%3D%222%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate(38%2076)%22%3E%3Cg%20fill%3D%22%23fff%22%3E%3Ccircle%20cx%3D%2221%22%20cy%3D%2230%22%20r%3D%2215%22%20fill-opacity%3D%22.1%22%2F%3E%3Ccircle%20cx%3D%2283%22%20cy%3D%2230%22%20r%3D%2215%22%20fill-opacity%3D%22.1%22%2F%3E%3Ccircle%20cx%3D%2221%22%20cy%3D%2230%22%20r%3D%2212%22%20fill-opacity%3D%22.1%22%2F%3E%3Ccircle%20cx%3D%2283%22%20cy%3D%2230%22%20r%3D%2212%22%20fill-opacity%3D%22.1%22%2F%3E%3Ccircle%20cx%3D%2221%22%20cy%3D%2230%22%20r%3D%226%22%20fill-opacity%3D%22.8%22%2F%3E%3Ccircle%20cx%3D%2283%22%20cy%3D%2230%22%20r%3D%226%22%20fill-opacity%3D%22.8%22%2F%3E%3Ccircle%20cx%3D%2221%22%20cy%3D%2230%22%20r%3D%223%22%20fill-opacity%3D%22.8%22%2F%3E%3Ccircle%20cx%3D%2283%22%20cy%3D%2230%22%20r%3D%223%22%20fill-opacity%3D%22.8%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Robotics Avatar" loading="lazy">
+          </figure>
+          <h3 class="project-title"><a href=" https://drive.google.com/file/d/19JONsQLDiXOzcxeKhuT_6_OkCQ8ZvR_j/view?usp=sharing"</a>C++ Online Bootcamp</h3>
+          <p class="project-category"> C++ Online Bootcamp</p>
+        </a>
+      </li>
+
+
+      <li class="project-item active">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="https://api.dicebear.com/9.x/shapes/svg?seed=Felix" alt="Robotics Avatar" loading="lazy">
+          </figure>
+          <h3 class="project-title"><a href=" https://drive.google.com/file/d/1Vrq7pRmjqa7my1zGcKg08XiJGOvuAmRO/view?usp=sharing"</a>HTML & CSS Online Bootcamp</h3>
+          <p class="project-category"> HTML & CSS  Online Bootcamp</p>
+        </a>
+      </li>
+
+
+      <li class="project-item active">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20180%20180%22%20fill%3D%22none%22%20shape-rendering%3D%22auto%22%3E%3Cmetadata%20xmlns%3Ardf%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%22%20xmlns%3Axsi%3D%22http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema-instance%22%20xmlns%3Adc%3D%22http%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%22%20xmlns%3Adcterms%3D%22http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%22%3E%3Crdf%3ARDF%3E%3Crdf%3ADescription%3E%3Cdc%3Atitle%3EBottts%3C%2Fdc%3Atitle%3E%3Cdc%3Acreator%3EPablo%20Stanley%3C%2Fdc%3Acreator%3E%3Cdc%3Asource%20xsi%3Atype%3D%22dcterms%3AURI%22%3Ehttps%3A%2F%2Fbottts.com%2F%3C%2Fdc%3Asource%3E%3Cdcterms%3Alicense%20xsi%3Atype%3D%22dcterms%3AURI%22%3Ehttps%3A%2F%2Fbottts.com%2F%3C%2Fdcterms%3Alicense%3E%3Cdc%3Arights%3ERemix%20of%20%E2%80%9EBottts%E2%80%9D%20(https%3A%2F%2Fbottts.com%2F)%20by%20%E2%80%9EPablo%20Stanley%E2%80%9D%2C%20licensed%20under%20%E2%80%9EFree%20for%20personal%20and%20commercial%20use%E2%80%9D%20(https%3A%2F%2Fbottts.com%2F)%3C%2Fdc%3Arights%3E%3C%2Frdf%3ADescription%3E%3C%2Frdf%3ARDF%3E%3C%2Fmetadata%3E%3Cmask%20id%3D%22viewboxMask%22%3E%3Crect%20width%3D%22180%22%20height%3D%22180%22%20rx%3D%220%22%20ry%3D%220%22%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23fff%22%20%2F%3E%3C%2Fmask%3E%3Cg%20mask%3D%22url(%23viewboxMask)%22%3E%3Cg%20transform%3D%22translate(0%2066)%22%3E%3Cmask%20id%3D%22sidesSquare-a%22%20style%3D%22mask-type%3Aluminance%22%20maskUnits%3D%22userSpaceOnUse%22%20x%3D%2214%22%20y%3D%2216%22%20width%3D%22152%22%20height%3D%2244%22%3E%3Cg%20fill%3D%22%23fff%22%3E%3Crect%20x%3D%2214%22%20y%3D%2216%22%20width%3D%2236%22%20height%3D%2244%22%20rx%3D%229%22%2F%3E%3Crect%20x%3D%22130%22%20y%3D%2216%22%20width%3D%2236%22%20height%3D%2244%22%20rx%3D%229%22%2F%3E%3C%2Fg%3E%3C%2Fmask%3E%3Cg%20mask%3D%22url(%23sidesSquare-a)%22%3E%3Cpath%20d%3D%22M0%200h180v76H0V0Z%22%20fill%3D%22%23f4511e%22%2F%3E%3Cpath%20d%3D%22M0%200h180v76H0V0Z%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.3%22%2F%3E%3Cpath%20fill%3D%22%23000%22%20fill-opacity%3D%22.1%22%20d%3D%22M0%2038h180v38H0z%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate(41)%22%3E%3Cmask%20id%3D%22topRadar-a%22%20style%3D%22mask-type%3Aluminance%22%20maskUnits%3D%22userSpaceOnUse%22%20x%3D%2237%22%20y%3D%220%22%20width%3D%2236%22%20height%3D%2253%22%3E%3Cg%20fill%3D%22%23fff%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M43.8.11A20%2020%200%201%200%2072.08%2028.4%22%2F%3E%3Ccircle%20cx%3D%2267.13%22%20cy%3D%225.06%22%20r%3D%224%22%20transform%3D%22rotate(45%2067.13%205.06)%22%2F%3E%3Cpath%20transform%3D%22rotate(45%2064.3%206.48)%22%20d%3D%22M64.31%206.48h2v26h-2z%22%2F%3E%3Cpath%20d%3D%22M47.94%2028.11h4v24h-4z%22%2F%3E%3C%2Fg%3E%3C%2Fmask%3E%3Cg%20mask%3D%22url(%23topRadar-a)%22%3E%3Cpath%20d%3D%22M0%200h100v52H0V0Z%22%20fill%3D%22%2390A4AE%22%2F%3E%3Cpath%20d%3D%22M0%200h100v52H0V0Z%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.3%22%2F%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M43.8.11A20%2020%200%201%200%2072.08%2028.4%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.2%22%2F%3E%3Ccircle%20cx%3D%2267.13%22%20cy%3D%227.41%22%20r%3D%225.66%22%20transform%3D%22rotate(45%2067.13%207.4)%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.8%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate(25%2044)%22%3E%3Cmask%20id%3D%22faceSquare04-a%22%20style%3D%22mask-type%3Aluminance%22%20maskUnits%3D%22userSpaceOnUse%22%20x%3D%220%22%20y%3D%220%22%20width%3D%22130%22%20height%3D%22120%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M0%20102V68.85a40%2040%200%200%201%202.28-13.31L19.76%2012A18%2018%200%200%201%2036.74%200h56.52a18%2018%200%200%201%2016.98%2012l17.48%2043.54A40%2040%200%200%201%20130%2068.85V102a18%2018%200%200%201-18%2018H18a18%2018%200%200%201-18-18Z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fmask%3E%3Cg%20mask%3D%22url(%23faceSquare04-a)%22%3E%3Cpath%20d%3D%22M-2-2h134v124H-2V-2Z%22%20fill%3D%22%23f4511e%22%2F%3E%3Cg%20transform%3D%22translate(-1%20-1)%22%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate(52%20124)%22%3E%3Cg%20fill%3D%22%23000%22%20fill-opacity%3D%22.6%22%3E%3Crect%20x%3D%2228%22%20y%3D%2210%22%20width%3D%226%22%20height%3D%2214%22%20rx%3D%222%22%2F%3E%3Crect%20x%3D%2214%22%20y%3D%2210%22%20width%3D%226%22%20height%3D%2214%22%20rx%3D%222%22%2F%3E%3Crect%20x%3D%2242%22%20y%3D%2210%22%20width%3D%226%22%20height%3D%2214%22%20rx%3D%222%22%2F%3E%3Crect%20x%3D%2256%22%20y%3D%2210%22%20width%3D%226%22%20height%3D%2214%22%20rx%3D%222%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate(38%2076)%22%3E%3Crect%20x%3D%228%22%20y%3D%2210%22%20width%3D%2288%22%20height%3D%2236%22%20rx%3D%224%22%20fill%3D%22%23000%22%20fill-opacity%3D%22.8%22%2F%3E%3Crect%20x%3D%2228%22%20y%3D%2221%22%20width%3D%2210%22%20height%3D%2217%22%20rx%3D%222%22%20fill%3D%22%235EF2B8%22%2F%3E%3Crect%20x%3D%2266%22%20y%3D%2221%22%20width%3D%2210%22%20height%3D%2217%22%20rx%3D%222%22%20fill%3D%22%235EF2B8%22%2F%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M83%2010h5L76%2046h-5l12-36Z%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.4%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Robotics Avatar" loading="lazy">
+          </figure>
+          <h3 class="project-title"><a href="https://drive.google.com/file/d/1-vAy2c99h20VcCq23RFgzTQNX16msIjK/view?usp=sharing"</a>Prompt Engineering online Bootcamp</h3>
+          <p class="project-category"> Prompt Engineering  Online Bootcamp</p>
+        </a>
+      </li>
+
+      <li class="project-item active">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="https://api.dicebear.com/7.x/bottts/svg?seed=robot" alt="Robotics Avatar" loading="lazy">
+          </figure>
+          <h3 class="project-title"><a href="https://drive.google.com/file/d/1hIHBP6x6myrzS-pIWBxTllmNXLO4Udy2/view?usp=sharing"</a>C++ Course :Learn the essentials</h3>
+          <p class="project-category">C++ Course :Learn the essentials</p>
+        </a>
+      </li>
+    </ul>
+  </section>
+</article>
+
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+<article class="contact" data-page="contact">
+  <header>
+    <h2 class="h2 article-title">Contact</h2>
+  </header>
+  <section class="mapbox" data-mapbox>
+    <figure>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3443.4426149354717!2d74.8400396!3d30.2551673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391731165e0b6d11%3A0x7542520d60da8e05!2sDIET%20Deon!5e0!3m2!1sen!2sin!4v1691051234567!5m2!1sen!2sin"
+        width="400" height="300" loading="lazy"></iframe>
+    </figure>
+  </section>
+  <section class="contact-form">
+    <h3 class="h3 form-title">Contact Form</h3>
+    <form action="https://formspree.io/f/mayrlgjv" method="POST" class="form" data-form>
+      <div class="input-wrapper">
+        <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+        <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+      </div>
+      <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+      <button class="form-btn" type="submit" data-form-btn>
+        <ion-icon name="paper-plane"></ion-icon>
+        <span>Send Message</span>
+      </button>
+    </form>
+  </section>
+</article>
+
+
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
